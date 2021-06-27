@@ -1,0 +1,615 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>טוזיג - הכן פיקניק בעצמך - עמוד מיקומים</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/locations.css" rel="stylesheet" />
+    <link rel="icon" href="images/imagesHomePage/logo.svg" />
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <a id="skipContent" href="#placesSec">דלג לתוכן העמוד</a>
+            <a href="index.html"> <img id="logoPic" alt="לוגו טוזיג" src="images/imagesHomePage/logo.svg" /></a>
+            <nav class="tabs" aria-label="תפריט ניווט ראשי">
+                <ul>
+                    <li id="romanticTab"><a href="zugiPicnic.html">פיקניק רומנטי</a></li>
+                    <li id="familyTab"><a href="familyPicnic.html">פיקניק משפחתי</a></li>
+                    <li id="friedsTab" class="notActive">פיקניק חברות</a></li>
+                    <li id="pakalTab" class="notActive">פיקניק בקטנה</li>
+                    <li id="birthdayTab"><a href="birthdayPicnic.html">פיקניק יום הולדת</a></li>
+                    <li id="recipeTab" class="notActive">כל המתכונים</li>
+                    <li id="placeTab"><a href="locations.html">כל המיקומים</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <div role="main">
+                <video controls="controls" autoplay alt="לכל המיקומים">
+                    <source src="images/imagesMikumim/newCompressed/videoHeader.mp4" type="video/mp4" />
+                </video>
+                <img id="enterSnc" src="images/imagesMikumim/banner.png" />
+                <a href="#placesSec"><img id="arrow" src="images/imagesHomePage/arrow.svg" /> </a>
+
+
+                <section>
+                    <div id="placesSec">
+                        <h1>ביחרו מיקום</h1>
+                        <p>
+                            כדי שפיקניק יהיה מושלם הוא צריך להתקיים במקום המושלם<br />
+                            מאגר המיקומים שלנו יעזור לכם <span>לבחור אותו!</span>
+                        </p>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="placesOptions">
+                        <div class="placesKinds">
+                            <a href="#yearotP" aria-labelledby="forestsLabel">
+                                <div id="forest">
+                                    <div class="hideP" id="forestHide">
+                                        <p>היערות המדהימים בארץ לפיקניק חוויתי במיוחד</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#parkimP" aria-labelledby="parksLabel">
+                                <div id="parks">
+                                    <div class="hideP" id="parksHide">
+                                        <p>הפארקים המומלצים ביותר לפיקניק מהסרטים</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#tazpiotP" aria-labelledby="tazpiotLabel">
+                                <div id="tazpiot">
+                                    <div class="hideP" id="tazpiotHide">
+                                        <p>מיקומים לפיקניק עם הנוף המושלם</p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#mekorotMaimP" aria-labelledby="waterLabel">
+                                <div id="water">
+                                    <div class="hideP" id="waterHide">
+                                        <p>  המקומות המושלמים לפיקניק בטבע שמשלבים מקורות מים  </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#hofimP" aria-labelledby="beachesLabel">
+                                <div id="beaches">
+                                    <div class="hideP" id="beachesHide">
+                                        <p>  החופים האולטימטיביים לפיקניק המושלם </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="placesOptions">
+                            <p id="forestsLabel">יערות</p>
+                            <p id="parksLabel">פארקים</p>
+                            <p id="tazpiotLabel">תצפיות</p>
+                            <p id="waterLabel">מקורות מים</p>
+                            <p id="beachesLabel">חופים</p>
+                        </div>
+
+                        <div id="sentence">
+                            <div id="pas">
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <iframe height="720px" width="1200px" src="https://anittamali.github.io/AccessibilityCompassV3/mazpen%20animation.html" frameborder="" allowfullscreen="">Browser not compatiable<</iframe>
+
+
+
+
+                <div id="placesGallery">
+                    <div class="container">
+                        <section>
+                            <div id="parkimP">
+                                <h2 class="kindHeading">פארקים</h2>
+                                <p class="inst">לחצו על החצים צפונה ודרומה כדי לעבור בין המיקומים השונים</p>
+                                <ul class="placesLine">
+                                    <li class="prev"><a onclick="plusSlides1(-1)">צפונה &lt; </a></li>
+                                    <li class="zir"></li>
+                                    <li class="next"><a onclick="plusSlides1(1)"> &gt; דרומה</a></li>
+                                </ul>
+                                <div class="backPlaces">
+                                    <div class="mySlidesPark fade">
+                                        <div id="horshatTal">
+                                            <h3>חורשת טל</h3>
+                                            <p><b>על המקום: </b>אתר טבע ונופש המשתרע על פני 700 דונמים ובו <br />מדשאות ואגם שחייה הניזון מפלגי מים שמקורם בנחל דן. מעל לאתר<br /> מתנשא הר החרמון.</p>
+                                            <p><b>בוויז: </b>חורשת טל</p>
+                                            <p><b>עונה מומלצת: </b>כל העונות</p>
+                                            <p><b>שעות פתיחה: </b>א—ה׳, ש׳- 8:00-17:00, ו׳ וערבי חג- 8:00-16:00. </p>
+                                            <img src="images/imagesMikumim/placesPics/parks/horshatTal.png" />
+                                        </div>
+                                    </div>
+                                    <div class="mySlidesPark fade">
+                                        <div id="agamonHahole">
+                                            <h3>אגמון החולה</h3>
+                                            <p><b>על המקום: </b>פארק אגמון החולה הוא אתר תיירות אקולוגי אשר מציע למבקריו <br />חווית טבע נדירה.</p>
+                                            <p><b>בוויז: </b>אגמון החולה</p>
+                                            <p><b>עונה מומלצת: </b>כל העונות</p>
+                                            <p><b>שעות פתיחה: </b>: א׳-ה׳ בין 8:00-17:30, ש—ו׳ בין 6:30-17:30</p>
+                                            <p><b>מידע נוסף: </b>בפארק קיימת נגישות מלאה.</p>
+                                            <img src="images/imagesMikumim/placesPics/parks/agamonHahole.png" />
+                                        </div>
+                                    </div>
+
+                                    <div class="mySlidesPark fade">
+                                        <div id="parkHerzeliya">
+                                            <h3>פארק הרצליה</h3>
+                                            <p><b>על המקום: </b>פארק מרהיב וגדול בו נמצאות מדשאות המתאימות<br /> לפיקניק וגני שעשועים לילדים.</p>
+                                            <p><b>בוויז: </b>פארק הרצליה</p>
+                                            <p><b>עונה מומלצת: </b>סתיו, אביב, קיץ</p>
+                                            <p><b>שעות פתיחה: </b>24/7</p>
+                                            <p><b>מידע נוסף: </b>במקום קיים מסלול הליכה של כ-3.5 ק״מ עד <br />לשלולית חוף גדולה.</p>
+                                            <img src="images/imagesMikumim/placesPics/parks/herzeliyaPark.png" alt="פארק הרצליה" />
+                                        </div>
+                                    </div>
+
+                                    <div class="mySlidesPark fade">
+                                        <div id="parkYarkon">
+                                            <h3>פארק הירקון</h3>
+                                            <p><b>על המקום: </b>בלב תל אביב, משני צידי נחל הירקון, נמצא מרחב<br /> עצום בעל מדשאות, חורשות, עצים, פרחים ולא מעט אטרקציות</p>
+                                            <p><b>בוויז: </b>פארק הירקון</p>
+                                            <p>
+                                                <b>עונה מומלצת: </b>קיץ, אביב וסתיו
+                                            </p>
+                                            <p><b>שעות פתיחה: </b>24/7</p>
+                                            <p><b>מידע נוסף: </b>מסביב לפארק קיימים מספר חניונים של עיריית תל <br />אביב בתשלום.</p>
+                                            <img src="images/imagesMikumim/placesPics/parks/yarkonPark.png" alt="פארק הירקון" />
+                                        </div>
+
+                                    </div>
+
+                                    <div class="mySlidesPark fade">
+                                        <div id="canadaPark">
+                                            <h3>פארק קנדה</h3>
+                                            <p><b>על המקום: </b>הפארק משתרע על פני 12 אלף דונמים ונמצא מצפון<br /> לכביש ירושלים- תל אביב. עשיר בנופי חורש טבעי, יערות, <br />עצי בוסתן ואתרים היסטוריים מרתקים.</p>
+                                            <p><b>בוויז: </b>פארק קנדה</p>
+                                            <p><b>עונה מומלצת: </b>כל העונות</p>
+                                            <p><b>שעות פתיחה: </b></p>
+                                            <p><b>מידע נוסף: </b>א׳-ש׳ בין 5:30-18:00</p>
+                                            <img src="images/imagesMikumim/placesPics/parks/canadaPark.png" alt="פארק קנדה" />
+                                        </div>
+                                    </div>
+
+                                    <div class="mySlidesPark fade">
+                                        <div id="harHaroach">
+                                            <h3>הר הרוח ושביל נוף יתלה</h3>
+                                            <p><b>על המקום: </b>הר הרוח נטוע ביערות קק״ל והוא מקום מושלם<br /> לפיקניקים. </p>
+                                            <p><b>בוויז: </b>הר הרוח</p>
+                                            <p><b>עונה מומלצת: </b>סתיו</p>
+                                            <p><b>שעות פתיחה: </b>24/7</p>
+                                            <p><b>מידע נוסף: </b>במקום קיימים מסלולי טיול של כ-1.5 ק״מ בנופי<br /> נחל יתלה.</p>
+                                            <img src="images/imagesMikumim/placesPics/parks/harHaroach.png" alt="הר הרוח ושביל נוף יתלה" />
+                                        </div>
+                                    </div>
+                                    <div class="mySlidesPark fade">
+                                        <div id="eshkolPark">
+                                            <h3>פארק אשכול</h3>
+                                            <p><b>על המקום: </b>בלב הנגב המערבי נמצא פארק שופע עצי דקלים ונוי,<br /> בריכות, מדשאות, שבילי אופניים ושרידים מהעבר.</p>
+                                            <p>
+                                                <b>בוויז: </b>גן לאומי אשכול- פארק הבשור
+                                            </p>
+                                            <p>
+                                                <b>עונה מומלצת: </b>כל העונות
+                                            </p>
+                                            <p>
+                                                <b>שעות פתיחה: </b>א—ה׳ בין 8:00-16:00, כניסה עד 15:00,  ו—ש׳ <br />בין 8:00-15:00 כניסה עד 14:00
+                                            </p>
+                                            <p><b>מידע נוסף: </b>בפארק קיימים שבילי אופניים מסומנים.</p>
+                                            <img src="images/imagesMikumim/placesPics/parks/eshkolPark.png" alt="פארק אשכול" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+
+                        <section>
+                            <div id="tazpiotP">
+                                <h2 class="kindHeading">תצפיות</h2>
+                                <p class="inst">לחצו על החצים צפונה ודרומה כדי לעבור בין המיקומים השונים</p>
+                                <ul class="placesLine">
+                                    <li class="prev"> <a onclick="plusSlides2(-1)">צפונה ❮</a></li>
+                                    <li class="zir"></li>
+                                    <li class="next"> <a onclick="plusSlides2(1)">❯ דרומה</a></li>
+                                </ul>
+                                <div class="backPlaces">
+                                    <div class="mySlidesMizpe fade">
+                                        <div id="mizpeOfir">
+                                            <h3>מצפה אופיר</h3>
+                                            <p><b>על המקום: </b>תצפית מדהימה בדרום רמת הגולן המשקיפה לחרמון,<br /> לבנון, גליל, העמקים והכנרת. </p>
+                                            <p><b>בוויז: </b>מצפה אופיר</p>
+                                            <p><b>עונה מומלצת: </b>כל העונות</p>
+                                            <p><b>שעות פתיחה: </b>24/7</p>
+                                            <p><b>מידע נוסף: </b>קיים מסלול הליכה של כ-6 ק״מ שאורך בין 3-4 <br /> שעות של הליכה איטית. </p>
+                                            <img src="images/imagesMikumim/placesPics/mizpe/mizpeOfir.png" alt="מצפה אופיר" />
+                                        </div>
+                                    </div>
+                                    <div class="mySlidesMizpe fade">
+                                        <div id="katefShaul">
+                                            <h3>תצפית כתף שאול</h3>
+                                            <p><b>על המקום: </b>רחבת תצפית נאה בסמוך למצפור הר שאול, בגובה 302 <br />מטר. ההר בולט צפונה מחומת הגלבוע ולכן נותן מבט יפהפה על <br />המתלול הזקוף של הרכס.</p>
+                                            <p><b>בוויז: </b>כתף שאול</p>
+                                            <p><b>עונה מומלצת: </b>כל העונות</p>
+                                            <p><b>שעות פתיחה: </b>24/7</p>
+                                            <p><b>מידע נוסף: </b>מדובר בדרך הררית קשה ומפותלת למקום, יש לשים לב.</p>
+                                            <img src="images/imagesMikumim/placesPics/mizpe/katefShaul.png" alt="מצפה כתף שאול" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div id="mekorotMaimP">
+                                <h2 class="kindHeading">מקורות מים</h2>
+                                <p class="inst">לחצו על החצים צפונה ודרומה כדי לעבור בין המיקומים השונים</p>
+                                <ul class="placesLine">
+                                    <li class="prev"> <a onclick="plusSlides3(-1)">צפונה ❮</a></li>
+                                    <li class="zir"></li>
+                                    <li class="next"> <a onclick="plusSlides3(1)">❯ דרומה</a></li>
+                                </ul>
+
+                                <div class="backPlaces">
+                                    <div class="mySlidesMaim fade">
+                                        <div id="slukia">
+                                            <h3>חניון הסלוקיה</h3>
+                                            <p><b>על המקום: </b>במקום שביל מסודר שלאורכו בריכות שכשוך <br />מקסימות ופינות ישיבה המתאימות לעצירת פיקניק או קפה.</p>
+                                            <p><b>בוויז: </b>חניון סלוקיה</p>
+                                            <p><b>עונה מומלצת: </b>כל העונות</p>
+                                            <p><b>שעות פתיחה: </b>: א׳-ש׳ בין 8:00-16:00</p>
+                                            <p><b>מידע נוסף: </b>במקום קיימים שולחנות נגישים</p>
+                                            <img src="images/imagesMikumim/placesPics/mekorotMaim/slukia.png" alt="חניון הסלוקיה" />
+                                        </div>
+                                    </div>
+                                    <div class="mySlidesMaim fade">
+                                        <div id="einModa">
+                                            <h3>עין מודע</h3>
+                                            <p><b>על המקום: </b>מעיין בעל נוף מרהיב, פינות פיקניק וספסלים. במקום<br /> נמצאת גם בריכה לטבילה.</p>
+                                            <p><b>בוויז: </b>עין מודע</p>
+                                            <p><b>עונה מומלצת: </b>קיץ וחורף</p>
+                                            <p>
+                                                <b>שעות פתיחה: </b>א׳-ש׳ מ- 9:00 עד שעה לפני החשכה
+                                            </p>
+                                            <p><b>מידע נוסף: </b>קיימים מקומות מוסדרים לפיקניק ומנגל.</p>
+                                            <img src="images/imagesMikumim/placesPics/mekorotMaim/einMosa.png" alt="עין מודע" />
+                                        </div>
+
+                                    </div>
+                                    <div class="mySlidesMaim fade">
+                                        <div id="mizpeGilad">
+                                            <h3>מצפה גלעד, רמות מנשה</h3>
+                                            <p><b>על המקום: </b>ידוע גם כמאגר פירחה, מאגר נחל רז והאגם הנעלם. <br />המקום בעל מספר שבילי הליכה בצמוד לשני מאגרי מים עם אופציה<br /> לפיקניק בפינה מוצלת או על גלות מאגר.</p>
+                                            <p><b>בוויז: </b>חניון אשתר</p>
+                                            <p>
+                                                <b>עונה מומלצת: </b>חורף, סתיו ואביב
+                                            </p>
+                                            <p><b>שעות פתיחה: </b>24/7</p>
+                                            <p><b>מידע נוסף: </b>המאגר נגיש מחלקו המזרחי.</p>
+                                            <img src="images/imagesMikumim/placesPics/mekorotMaim/mizpeGilad.png" alt="מצפה גלעד" />
+                                        </div>
+                                    </div>
+                                    <div class="mySlidesMaim fade">
+                                        <div id="nahalAlexander">
+                                            <h3>פארק נחל אלכסנדר</h3>
+                                            <p><b>על המקום: </b>במקום פינות חמד עם שבילי הליכה, חניון גדול <br />לפיקניקים, מדשאות ועמדת תצפית על הנחל.</p>
+                                            <p>
+                                                <b>בוויז: </b>נחל אלכסנדר / חניון פארק איטליה
+                                            </p>
+                                            <p><b>עונה מומלצת: </b>כל העונות</p>
+                                            <p><b>שעות פתיחה: </b>24/7</p>
+                                            <p><b>מידע נוסף: </b>במקום שבילי הליכה נגישים. ניתן לשלב מסלול<br /> הליכה של כ-2.7 ק״מ לאורך הנחל.</p>
+                                            <img src="images/imagesMikumim/placesPics/mekorotMaim/alexanderRiver.png" alt="נחל אלכסנדר" />
+                                        </div>
+
+                                    </div>
+                                    <div class="mySlidesMaim fade">
+                                        <div id="agamonPoleg">
+                                            <h3>אגמון פולג</h3>
+                                            <p><b>על המקום: </b>אגם פסטורלי, סביבו שביל הליכה עם שפע נקודות<br /> עצירה עם תצפיות, שלטי הסבר על עולם החי, הצומח והדומם.</p>
+                                            <p><b>בוויז: </b>אגמון פולג</p>
+                                            <p><b>עונה מומלצת: </b>חורף וסתיו</p>
+                                            <p><b>שעות פתיחה: </b>24/7</p>
+                                            <p><b>מידע נוסף: </b>במקום מסלול מישורי מעגלי של כ-1.5 ק״מ. מומלץ<br /> להביא משקפת לצפייה בציפורים.</p>
+                                            <img src="images/imagesMikumim/placesPics/mekorotMaim/agamonPoleg.png" alt="אגמון פולג" />
+                                        </div>
+
+                                    </div>
+                                    <div class="mySlidesMaim fade">
+                                        <div id="agamYeruham">
+                                            <h3>אגם ירוחם</h3>
+                                            <p><b>על המקום: </b>במקום פארק בעל מקומות ישיבה מוסדרים לפיקניק,<br /> מדשאות, מתקני משחקים לילדים, שבילי אופניים, מתקני כושר <br />ואגם.</p>
+                                            <p><b>בוויז: </b>אגם ירוחם</p>
+                                            <p><b>עונה מומלצת: </b>כל העונות</p>
+                                            <p><b>שעות פתיחה: </b>24/7</p>
+                                            <img src="images/imagesMikumim/placesPics/mekorotMaim/yeruhamAgam.png" alt="אגם ירוחם" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+
+                        <section>
+                            <div id="yearotP">
+                                <h2 class="kindHeading">יערות</h2>
+                                <p class="inst">לחצו על החצים צפונה ודרומה כדי לעבור בין המיקומים השונים</p>
+                                <ul class="placesLine">
+                                    <li class="prev"> <a onclick="plusSlides(-1)">צפונה ❮</a></li>
+                                    <li class="zir"></li>
+                                    <li class="next"> <a onclick="plusSlides(1)">❯ דרומה</a></li>
+                                </ul>
+                                <div class="backPlaces">
+                                    <div class="mySlidesForest fade">
+                                        <div id="shohamForest">
+                                            <h3>יער שהם</h3>
+                                            <p><b>על המקום: </b>בעל פריחה מרהיבה של כלניות בעונת הפריחה.<br /> היער מוצל ובעל חניונים ואתרי עתיקות</p>
+                                            <p><b>בוויז: </b>יער שהם</p>
+                                            <p>
+                                                <b>עונה מומלצת: </b>חורף- עונת פריחת הכלניות
+                                            </p>
+                                            <p><b>שעות פתיחה: </b>24/7</p>
+                                            <p><b>מידע נוסף: </b>במקום מספר שבילים, ספסלים ואתרי עתיקות<br /> מונגשים.</p>
+                                            <img src="images/imagesMikumim/placesPics/forest/shohamForest.png" alt="יער שהם" />
+                                        </div>
+                                    </div>
+                                    <div class="mySlidesForest fade">
+                                        <div id="tziraForest">
+                                            <h3>יער צרעה</h3>
+                                            <p><b>על המקום: </b>יער בעל צמחיה טבעית, אתרים ארכיאולוגיים, <br />פסלים, נקודות תצפית וחניונים.</p>
+                                            <p><b>בוויז: </b>יער צרעה</p>
+                                            <p><b>עונה מומלצת: </b>כל העונות</p>
+                                            <p><b>שעות פתיחה: </b>24/7</p>
+                                            <p><b>מידע נוסף: </b>במקום קיימים מס׳ חניונים נגישים.</p>
+                                            <img src="images/imagesMikumim/placesPics/forest/ziraaForest.png" alt="יער צרעה" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+
+                        <section>
+                            <div id="hofimP">
+                                <h2 class="kindHeading">חופים</h2>
+                                <p class="inst">לחצו על החצים צפונה ודרומה כדי לעבור בין המיקומים השונים</p>
+                                <ul class="placesLine">
+                                    <li class="prev"> <a onclick="plusSlides4(-1)">צפונה ❮</a></li>
+                                    <li class="zir"></li>
+                                    <li class="next"> <a onclick="plusSlides4(1)">❯ דרומה</a></li>
+                                </ul>
+                                <div class="backPlaces">
+                                    <div class="mySlidesHofim fade">
+                                        <div id="hof50">
+                                            <h3>שמורת תל גדור (חוף 50)</h3>
+                                            <p><b>על המקום: </b>במקום ניתן למצוא פריחה מהממת של צמחיית <br />חוף הים, צבי ים, מצוקים בגובה עשרות מטרים בעלי תצפית<br /> מרהיבה של חוף הים ואזור השרון. </p>
+                                            <p>
+                                                <b>בוויז: </b>שמורת טבע חוף גדור (חוף 50), חדרה
+                                            </p>
+                                            <p><b>עונה מומלצת: </b>קיץ, אביב</p>
+                                            <p><b>שעות פתיחה: </b>24/7</p>
+                                            <p><b>מידע נוסף: </b>ההגעה למקום אינה מונגשת וכוללת טיפוס ועליה.</p>
+                                            <img src="images/imagesMikumim/placesPics/hofim/hof50.png" alt="חוף 50" />
+                                        </div>
+
+                                    </div>
+                                    <div class="mySlidesHofim fade">
+                                        <div id="hofHazuk">
+                                            <h3>חוף הצוק, הרצליה</h3>
+                                            <p>
+                                                <b>על המקום: </b>במקום נמצאות מדשאות מתאימות לפיקניק,<br /> חוף ים ומסעדה.
+                                            </p>
+                                            <p><b>בוויז: </b>חוף הצוק הצפוני תל אביב (או הדרומי)</p>
+                                            <p><b>עונה מומלצת: </b>סתיו, אביב, קיץ</p>
+                                            <p><b>שעות פתיחה: </b>24/7</p>
+                                            <img src="images/imagesMikumim/placesPics/hofim/hofHazuk.png" alt="חוף הצוק" />
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section>
+
+
+                    </div>
+
+                    <!--<!-- Gallery 1 Forests JS -->
+
+                    <script>
+             var slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlidesForest");
+                    if (n > slides.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = slides.length }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                }
+                    </script>
+
+                    <!-- Gallery 2 Parks JS -->
+
+                    <script>
+                var slideIndex1 = 1;
+                showSlides1(slideIndex1);
+
+                function plusSlides1(n1) {
+                    showSlides1(slideIndex1 += n1);
+                }
+
+                function currentSlide1(n1) {
+                    showSlides1(slideIndex1 = n1);
+                }
+
+                function showSlides1(n1) {
+                    var i1;
+                    var slides1 = document.getElementsByClassName("mySlidesPark");
+
+                    if (n1 > slides1.length) { slideIndex1 = 1 }
+                    if (n1 < 1) { slideIndex1 = slides1.length }
+                    for (i1 = 0; i1 < slides1.length; i1++) {
+                        slides1[i1].style.display = "none";
+                    }
+
+                    slides1[slideIndex1 - 1].style.display = "block";
+
+                }
+                    </script>
+
+                    <!-- Gallery 3 Tazpiot JS -->
+
+                    <script>
+                var slideIndex2 = 1;
+                showSlides2(slideIndex2);
+
+                function plusSlides2(n2) {
+                    showSlides2(slideIndex2 += n2);
+                }
+
+                function currentSlide2(n2) {
+                    showSlides2(slideIndex2 = n2);
+                }
+
+                function showSlides2(n2) {
+                    var i2;
+                    var slides2 = document.getElementsByClassName("mySlidesMizpe");
+
+                    if (n2 > slides2.length) { slideIndex2 = 1 }
+                    if (n2 < 1) { slideIndex2 = slides2.length }
+                    for (i2 = 0; i2 < slides2.length; i2++) {
+                        slides2[i2].style.display = "none";
+                    }
+
+                    slides2[slideIndex2 - 1].style.display = "block";
+
+                }
+
+                    </script>
+
+                    <!-- Gallery 4 Mekorot Maim  -->
+
+                    <script>
+                var slideIndex3 = 1;
+                showSlides3(slideIndex3);
+
+                function plusSlides3(n3) {
+                    showSlides3(slideIndex3 += n3);
+                }
+
+                function currentSlide3(n3) {
+                    showSlides3(slideIndex3 = n3);
+                }
+
+                function showSlides3(n3) {
+                    var i3;
+                    var slides3 = document.getElementsByClassName("mySlidesMaim");
+
+                    if (n3 > slides3.length) { slideIndex3 = 1 }
+                    if (n3 < 1) { slideIndex3 = slides3.length }
+                    for (i3 = 0; i3 < slides3.length; i3++) {
+                        slides3[i3].style.display = "none";
+                    }
+
+                    slides3[slideIndex3 - 1].style.display = "block";
+
+                }
+
+                    </script>
+
+
+                    <!-- Gallery 5 Hofim  -->
+
+                    <script>
+                var slideIndex4 = 1;
+                showSlides4(slideIndex4);
+
+                function plusSlides4(n4) {
+                    showSlides4(slideIndex4 += n4);
+                }
+
+                function currentSlide4(n4) {
+                    showSlides4(slideIndex4 = n4);
+                }
+
+                function showSlides4(n4) {
+                    var i4;
+                    var slides4 = document.getElementsByClassName("mySlidesHofim");
+
+                    if (n4 > slides4.length) { slideIndex4 = 1 }
+                    if (n4 < 1) { slideIndex4 = slides4.length }
+                    for (i4 = 0; i4 < slides4.length; i4++) {
+                        slides4[i4].style.display = "none";
+                    }
+
+                    slides4[slideIndex4 - 1].style.display = "block";
+
+                }
+
+                    </script>
+
+                </div>
+            </div>
+        </article>
+        <footer>
+            <div>
+                <nav class="nav_footer" aria-label="תפריט תחתון">
+                    <ul class="notActive">
+                        <img src="images/imagesFuter/social.svg" />
+                    </ul>
+                    <ul class="footerNavRight">
+                        <li class="logoFooter"><a href="index.html"><img src="images/imagesHomePage/logo.svg" alt="לוגו אתר טוזיג"/></a></li>
+                        <br />
+                        <li><a href="index.html">דף הבית |</a></li>
+                        <li><a href="odot.html">אודות | </a></li>
+                        <li><a href="#" class="notActive">נגישות |</a></li>
+                        <li> <a href="keepInTouch.html">צור קשר |</a></li>
+                        <a href="map.html">מפת האתר</a>
+                    </ul>
+                    <ul class="footerNavLeft">
+                        <li><a href="zugiPicnic.html">פיקניק רומנטי</a></li>
+                        <li><a href="familyPicnic.html">פיקניק משפחתי</a></li>
+                        <li><a href="#" class="notActive">פיקניק חברות</a></li>
+                        <li><a href="#" class="notActive">פיקניק בקטנה </a></li>
+                        <li><a href="birthdayPicnic.html">פיקניק יום הולדת</a></li>
+                        <li><a href="#" class="notActive">כל המתכונים</a></li>
+                        <li><a href="locations.html">כל המיקומים</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="endPage">
+                <a href="#container">
+                    <img id="arrowEndPage" src="images/imagesHomePage/arrow.svg" /><br />
+                    לחזרה <br />לראש העמוד<br />
+                    לחצו כאן
+                </a>
+        </footer>
+    </div>
+</body>
+</html>

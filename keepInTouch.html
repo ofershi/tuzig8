@@ -1,0 +1,100 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>טוזיג - צרו קשר</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/keepInTouch.css" rel="stylesheet" />
+    <link rel="icon" href="images/imagesHomePage/logo.svg" />
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <a id="skipContent" href="#keepInTouch">דלג לתוכן העמוד</a>
+            <a href="index.html"> <img id="logoPic" alt="לוגו טוזיג" src="images/imagesHomePage/logo.svg" /></a>
+            <nav class="tabs">
+                <ul>
+                    <li id="romanticTab"><a href="zugiPicnic.html">פיקניק רומנטי</a></li>
+                    <li id="familyTab"><a href="familyPicnic.html">פיקניק משפחתי</a></li>
+                    <li id="friedsTab" class="notActive">פיקניק חברות</a></li>
+                    <li id="pakalTab" class="notActive">פיקניק בקטנה</li>
+                    <li id="birthdayTab"><a href="birthdayPicnic.html">פיקניק יום הולדת</a></li>
+                    <li id="recipeTab" class="notActive">כל המתכונים</li>
+                    <li id="placeTab"><a href="locations.html">כל המיקומים</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <div role="form">
+                <div id="keepInTouch">
+                    <h1>צרו איתנו קשר!</h1>
+                    <form>
+                        <label for="first name">שם פרטי: <span>*</span></label><br /><br />
+                        <input type="text" name="firstname" id="firstname" required aria-required="true" placeholder="הקלד/י את שמך הפרטי כאן" class="textBox" /><br /><br />
+                        <label for="lastname">שם משפחה: <span>*</span></label><br /><br />
+                        <input type="text" name="lastname" id="lastname" required aria-required="true" placeholder="הקלד/י את שם משפחתך כאן" class="textBox" /><br /><br />
+                        <label for="city">יישוב: </label><br /><br />
+                        <input type="text" name="city" id="city" placeholder="הקלד/י את יישוב מגורייך כאן" class="textBox" /><br /><br />
+                        <label for="gender">מין:</label><br /><br />
+                        <input type="radio" id="male" name="gender" />
+                        <label for="male">גבר</label><br /><br />
+                        <input type="radio" id="female" name="gender" />
+                        <label for="female"> אישה </label><br /><br />
+                        <input type="radio" id="notInterested" name="gender" />
+                        <label for="notInterested">לא מעוניין לציין </label><br /><br />
+                        <label for="phone">מספר פלאפון: <span>*</span></label><br /><br />
+                        <input type="text" name="phone" id="phone" required aria-required="true" placeholder="הקלד/י כאן את מספר הפלאפון שלך בצורה הזו- XXX-XXXXXXX" class="textBox" /><br /><br />
+                        <label for="email">מייל (דואר אלקטרוני):<span>*</span></label><br /><br />
+                        <input type="email" name="email" id="email" required aria-required="true" placeholder="הקלד/י את כתובת המייל שלך כאן" class="textBox" /><br /><br />
+                        <label for="sendForm">
+                            <input type="submit" id="sendForm" value="שליחה" />
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </article>
+        <footer>
+            <nav class="nav_footer" aria-label="תפריט תחתון">
+                <ul class="notActive">
+                    <img src="images/imagesFuter/social.svg" />
+                </ul>
+                <ul>
+                    <a href="index.html"><img id="logo" src="images/imagesHomePage/logo.svg" alt="לוגו אתר טוזיג"/></a>
+                    <p>
+                        <a href="index.html">דף הבית  </a>|
+                        <a href="odot.html">אודות  </a>|
+                        <a href="#" class="notActive">נגישות </a>|
+                        <a href="keepInTouch.html">צור קשר </a>|
+                        <a href="map.html">מפת האתר</a>
+                    </p>
+                </ul>
+                <ul>
+                    <li><a href="zugiPicnic.html">פיקניק רומנטי</a></li>
+                    <li><a href="familyPicnic.html">פיקניק משפחתי</a></li>
+                    <li><a href="#" class="notActive">פיקניק חברות</a></li>
+                    <li><a href="#" class="notActive">פיקניק בקטנה</a></li>
+                    <li><a href="birthdayPicnic.html">פיקניק יום הולדת</a></li>
+                    <li><a href="#" class="notActive">כל המתכונים</a></li>
+                    <li><a href="locations.html">כל המיקומים</a></li>
+                </ul>
+            </nav>
+            <div id="endPage">
+                <a href="#container">
+                    <img id="arrowEndPage" src="images/imagesHomePage/arrow.svg" /><br />
+                    לחזרה <br />לראש העמוד<br />
+                    לחצו כאן
+                </a>
+                </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,208 @@
+﻿/*General Settings*/
+html {
+    scroll-behavior: smooth;
+}
+
+font-face {
+    font-family: 'OS Luizi Round_FFC';
+}
+
+font-face {
+    font-family: 'Rubik';
+}
+
+a:focus {
+    border: 3px solid black;
+}
+
+body {
+    padding-top: 30px;
+    direction: rtl;
+    font-family: Rubik;
+    margin: 0 auto;
+    background-color: #f2e4e4;
+}
+
+#container {
+    width: 1280px;
+    margin: 0 auto;
+    box-shadow: 5px 10px 18px #888888;
+    background-color: white;
+}
+
+/*header & nav Bar settings*/
+
+header {
+    margin-right: 45px;
+}
+
+#skipContent, skipContent:visited {
+    z-index: 20;
+    position: absolute;
+    width: 0px;
+    text-align: center;
+    height: 0px;
+    color: black;
+    overflow: hidden;
+    font-size: 18pt;
+    margin: 0px -255px;
+}
+
+    #skipContent:focus {
+        z-index: 21;
+        overflow: visible;
+    }
+
+#logoPic {
+    float: right;
+    width: 15%;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.tabs {
+    padding-top: 80px;
+}
+
+    .tabs ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        margin-top: -10px;
+    }
+
+        .tabs ul li {
+            margin-right: 15px;
+            display: inline-block;
+            float: right;
+            background-color: #f2dada;
+            border-radius: 20px;
+            width: 125px;
+            text-align: center;
+            color: black;
+            height: 20px;
+            padding: 3px;
+        }
+
+            .tabs ul li a {
+                text-decoration: none;
+                list-style: none;
+                color: black;
+            }
+
+            .tabs ul li:hover {
+                background-image: url('../images/imagesHomePage/emptyTab.svg');
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+.notActive:hover {
+    cursor: not-allowed;
+    color: gray;
+}
+
+/*content settings*/ 
+
+h1 {
+font-family: 'OS Luizi Round_FFC';
+}
+
+h2 {
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'OS Luizi Round_FFC';
+    font-size: 45px;
+}
+
+#keepInTouch {
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-bottom:200px;
+    width:1280px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+label{
+    margin-bottom: 20px;
+    font-size:25px;
+}
+
+span {
+    color: #FA483C;
+}
+
+.textBox{
+    width: 500px;
+    height: 25px;
+}
+    .textBox:hover {
+        border: solid red 2px;
+    }
+
+#sendForm {
+    background-color: #f2dada;
+    height: 50px;
+    width:100px;
+    font-size:25px;
+    font-weight: 600;
+    font-family: Rubik;
+    border-radius: 25%;
+}
+
+    #sendForm:hover {
+        background-color: #F2CEDA;
+        cursor: pointer;
+    }
+
+    /*footer settings*/ 
+
+footer {
+    width: 1280px;
+    margin: auto;
+    margin-right: 100px;
+}
+
+.nav_footer ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    text-align: center;
+    width: 360px
+}
+
+footer #logo {
+    width: 100px;
+}
+
+li {
+    font-family: Rubik;
+    color: black;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+footer a:hover {
+    font-weight: bold;
+}
+
+ul p {
+    font-family: Rubik;
+}
+
+#endPage {
+    text-align: center;
+    float: right;
+    font-weight: bold;
+}
+
+#arrowEndPage {
+    width: 20px;
+    transform: rotate(180deg);
+}

@@ -1,0 +1,260 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>טוזיג - פיקניק רומנטי</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/zugiPicnic.css" rel="stylesheet" />
+    <link rel="icon" href="images/imagesHomePage/logo.svg" />
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <a id="skipContent" href="#top">דלג <br />לתוכן<br /> העמוד</a>
+            <a href="index.html" name="topPage"> <img id="logoPic" alt="לוגו טוזיג" src="images/imagesHomePage/logo.svg" /></a>
+            <nav class="tabs" aria-label="תפריט ניווט ראשי">
+                <ul>
+                    <li id="romanticTab"><a href="zugiPicnic.html">פיקניק רומנטי</a></li>
+                    <li id="familyTab"><a href="familyPicnic.html">פיקניק משפחתי</a></li>
+                    <li id="friedsTab" class="notActive">פיקניק חברות</a></li>
+                    <li id="pakalTab" class="notActive">פיקניק בקטנה</li>
+                    <li id="birthdayTab"><a href="birthdayPicnic.html">פיקניק יום הולדת</a></li>
+                    <li id="recipeTab" class="notActive">כל המתכונים</li>
+                    <li id="placeTab"><a href="locations.html">כל המיקומים</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <article>
+            <div role="main">
+                <video controls="controls" autoplay muted alt="פיקניק זוגי">
+                    <source src="images/imagesZugiPicnic/newCompressed/videoHeader (1).mp4" type="video/mp4" />
+                </video>
+                <img id="enterSnc" src="images/imagesZugiPicnic/enterSnc.svg" />
+                <a href="#top"><img id="arrow" src="images/imagesHomePage/arrow.svg" /> </a>
+            </div>
+
+            <section>
+                <a name="top">
+                    <div id="openSnc">
+                        <h2>
+                            !It's a (Picnic) Date
+                        </h2>
+                        <p id="text">
+                            מחפשים לשדרג את הבילוי הזוגי? הגעתם למקום הנכון! <br />
+                            לא משנה אם זה דייט ראשון או יום נישואין- אנחנו כאן כדי לעזור לכם לתכנן את הפיקניק המושלם מ-0! <br />
+                            עם שילוב של המיקום הנכון, האוכל המתאים והאדם שאתם אוהבים, הדרך לפיקניק מהסרטים מתחילה ממש כאן
+                        </p>
+                    </div>
+                </a>
+            </section>
+
+            <section>
+                <h2>מה לכתוב בוויז?</h2>
+                <p id="text">
+                    בחוף, בפארק או באגם נידח ... אלו ההמלצות שלנו למקומות פרטיים עם אווירה רומנטית במיוחד <br />
+                 <span> עברו עם העכבר על תמונת המקום על מנת לראות מידע נוסף</span>
+                </p>
+                <div id="imgsPlaces">
+                    <div id="mizpeOphir">
+                        <img src="images/imagesZugiPicnic/mizpeOphir.svg" alt="מצפה אופיר" />
+                        <div id="mizpeOphirHover" alt="מצפה אופיר פרטים"></div>
+                    </div>
+                    <div id="parkHayarkon">
+                        <img src="images/imagesZugiPicnic/parkHayarkon.svg" alt="פארק הירקון" />
+                        <div id="parkHayarkonHover" alt="פארק הירקון פרטים"> </div>
+                    </div>
+                    <div id="telGadur">
+                        <img src="images/imagesZugiPicnic/telGadur.svg" alt="תל גדור" />
+                        <div id="telGadurHover" alt="תל גדור פרטים"></div>
+                    </div>
+                    <div id="katefShaul">
+                        <img src="images/imagesZugiPicnic/katefShaul.svg" alt="כתף שאול" />
+                        <div id="katefShaulHover" alt="כתף שאול פרטים"></div>
+                    </div>
+                    <div id="hofHazuk">
+                        <img src="images/imagesZugiPicnic/hofHazuk.svg" alt="חוף הצוק" />
+                        <div id="hofHazukHover" alt="חוף הצוק פרטים"></div>
+                    </div>
+                    <div id="agmonPoleg">
+                        <img src="images/imagesZugiPicnic/agmonPoleg.svg" alt="אגמון פולג" />
+                        <div id="agmonPolegHover" alt="אגמון פולג פרטים"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="maOrzim">
+                <h2> מה אורזים? </h2>
+                <p id="text">
+                    פיקניק רומנטי לא יהיה מושלם ללא היערכות טובה מראש
+                </p>
+                <div class="title " id="must">
+                    <img id="mustPic" src="images/imagesZugiPicnic/mustPic.svg" />
+                    <h3>חובה</h3>
+                    <ul>
+                        <li>
+                            <img id="blackPoint" src="images/imagesZugiPicnic/blackPoint.svg" />
+                            <h4>מחצלת/שמיכה</h4>
+                            <p class="infor">משהו שנוח לשכב עליו, מומלץ מספיק עבה כדי שלא תרגישו את הקרקע. <br />למתפנקים- תוסיפו כריות לנוחות מקסימלית</p>
+                        </li>
+                        <li>
+                            <img id="blackPoint" src="images/imagesZugiPicnic/blackPoint.svg" />
+                            <h4>מים</h4>
+                            <p class="infor">אתם הולכים לבלות הרבה שעות בחוץ, תביאו כמות מים מספקת</p>
+                        </li>
+                        <li>
+                            <img id="blackPoint" src="images/imagesZugiPicnic/blackPoint.svg" />
+                            <h4>אוכל</h4>
+                            <p class="infor"> העזרו <a href="#" class="notActive underlineGroup">במתכונים</a> שלנו</p>
+                        </li>
+                        <li>
+                            <img id="blackPoint" src="images/imagesZugiPicnic/blackPoint.svg" />
+                            <h4>צלחות, סכו"ם, חד"פ</h4>
+                            <p class="infor">הביאו ספייר למקרה ומשהו יפול/יתלכלך או יאבד. המלצת המערכת: גם קרש חיתוך יכול לשמש כצלחת. <br /> המנעו מחד פעמי ותשקלו להביא רב פעמי/ציוד מתכלה מנייר - חשוב לשמור על הטבע שלנו!</p>
+                        </li>
+                        <li>
+                            <img id="blackPoint" src="images/imagesZugiPicnic/blackPoint.svg" />
+                            <h4>סלסלה/צידנית עם קרח</h4>
+                            <p class="infor">מעבר לזה שזה מצטלם יפה, חשוב להביא סלסלה ארוזה וגדולה לאחסון כל הציוד, גם צידנית/תיק גדול <br />יכול להתאים - רק לא לשכוח להביא קרח כדי לשמור על הכל קר וטרי.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="title" id="vibe">
+                    <img id="vibePic" src="images/imagesZugiPicnic/vibePic.svg" />
+                    <h3>לאווירה</h3>
+                    <ul>
+                        <li>
+                            <img id="blackPoint" src="images/imagesZugiPicnic/blackPoint.svg" />
+                            <h4>נרות</h4>
+                            <p class="infor">אוהבים להדליק את האווירה? קחו בחשבון שצריך גם לכבות אותה.<br />הקפידו להביא נר בתוך צנצנת על מנת שהדבר היחידי שידלוק היא האווירה...</p>
+                        </li>
+                        <li>
+                            <img id="blackPoint" src="images/imagesZugiPicnic/blackPoint.svg" />
+                            <h4>יין</h4>
+                            <p class="infor">קלאסי. פוטוגני. חובה בכל פיקניק רומנטי. רק לא לשכוח פותחן וכוסות.</p>
+                        </li>
+                        <li>
+                            <img id="blackPoint" src="images/imagesZugiPicnic/blackPoint.svg" />
+                            <h4>פרחים</h4>
+                            <p class="infor">לא צריך אירוע מיוחד בשבילם, תנו לאהבה לפרוח</p>
+                        </li>
+                        <li>
+                            <img id="blackPoint" src="images/imagesZugiPicnic/blackPoint.svg" />
+                            <h4>רמקול נייד</h4>
+                            <p class="infor">השירים לבחירתכם, אווירה מובטחת! רק לא לשכוח להטעין לפני</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="title" id="best">
+                    <img id="bestPic" src="images/imagesZugiPicnic/bestPic.svg" />
+                    <h3>למשקיעים</h3>
+                    <ul>
+                        <li>
+                            <img id="blackPoint" src="images/imagesZugiPicnic/blackPoint.svg" />
+                            <h4>שש בש</h4>
+                            <p class="infor">קצת תחרותיות</p>
+                        </li>
+                        <li>
+                            <img id="blackPoint" src="images/imagesZugiPicnic/blackPoint.svg" />
+                            <h4>מצלמה</h4>
+                            <p class="infor">לאוהבי התיעוד</p>
+                        </li>
+                        <li>
+                            <img id="blackPoint" src="images/imagesZugiPicnic/blackPoint.svg" />
+                            <h4>ביגוד ואביזרים לפי מזג האוויר</h4>
+                            <p class="infor">בין אם זה להגנה מהשמש (משקפי שמש, כובע, קרם הגנה, אלתוש..) או הגנה מהקור <br /> (סוודר, מטריה, תרמוס..), תבדקו את התחזית ותגיעו מוכנים.</p>
+                        </li>
+                        <li>
+                            <img id="blackPoint" src="images/imagesZugiPicnic/blackPoint.svg" />
+                            <h4>מביאים כלב</h4>
+                            <p class="infor">אל תשכחו להתחשב גם בו. רצועה, שקית, צרכים, מים, אוכל וצעצוע אהוב זה מאסט.</p>
+                        </li>
+                    </ul>
+                    <a class="list" href="images/imagesFamily/listEquipment.pdf" download>להורדת רשימת ציוד מלאה ב PDF >> </a>
+                </div>
+
+            </section>
+            <section>
+                <h2> מה אוכלים? </h2>
+                <p id="text">
+                    אוכל זה תמיד רעיון טוב! הכנו לכם כמה המלצות למתכונים שישדרגו כל דייט. <br />
+                    פינגר פוד מומלץ מאוד לזוגות ובמיוחד כשמדובר בטבע- קל להכנה, אריזה ואכילה! <br />
+                  <span>עברו עם העכבר על התמונה על מנת לראות את המתכון שלה</span>
+                </p>
+                <div id="try">
+                    <div id="t1"><p>פלטות מיוחדות</p></div>
+                    <div id="t2" alt="תמונה פלטות מיוחדות">
+                        <div class="hide" id="t2Hover" alt="מתכון פלטת גבינות פירות וירקות"></div>
+                    </div>
+                    <div id="t3" alt="תמונה סלט יווני">
+                        <div class="hide" id="t3Hover" alt="מתכון סלט יווני"></div>
+                    </div>
+                    <div id="t4" alt="תמונה סלט סלק וגבינה כחולה">
+                        <div class="hide" id="t4Hover" alt="מתכון סלט סלק וגבינה כחולה"></div>
+                    </div>
+                    <div id="t5"><p>סלטים מרעננים</p></div>
+                    <div id="t6"><p>כריכים מושקעים</p></div>
+                    <div id="t7" alt=">תמונה ברוסקטות">
+                        <div class="hide" id="t7Hover" alt="מתכון ברוסקטות"></div>
+                    </div>
+                    <div id="t8" alt="קינוח לוטוס">
+                        <div class="hide" id="t8Hover" alt="מתכון קינוח לוטוס"></div>
+                    </div>
+                    <div id="t9" alt="קינוח אוראו">
+                        <div class="hide" id="t9Hover" alt="מתכון קינוח אוראו"></div>
+                    </div>
+                    <div id="t10"><p>קינוחים טעימים</p></div>
+                </div>
+            </section>
+
+            <h6 id="finalSnc">אהבתם את הקונספט הזוגי? אולי תאהבו גם את <a href="familyPicnic.html" class="underlineGroup" aria-label="מעבר לעמוד קונספט משפחתי">הקונספט המשפחתי</a> >></h6>
+        </article>
+
+        <footer>
+            <nav class="nav_footer" aria-label="תפריט תחתון">
+                <ul class="notActive">
+                    <img src="images/imagesFuter/social.svg" />
+                </ul>
+                <ul>
+                    <a href="index.html"><img id="logo" src="images/imagesHomePage/logo.svg" /></a>
+                    <p>
+                        <a href="index.html">דף הבית | </a>
+                        <a href="odot.html">אודות | </a>
+                        <a href="#" class="notActive">נגישות |</a>
+                        <a href="keepInTouch.html">צור קשר |</a>
+                        <a href="map.html">מפת האתר</a>
+                    </p>
+                </ul>
+                <ul>
+                    <li><a href="zugiPicnic.html">פיקניק רומנטי</a></li>
+                    <li><a href="familyPicnic.html">פיקניק משפחתי</a></li>
+                    <li><a href="#" class="notActive">פיקניק חברות</a></li>
+                    <li><a href="#" class="notActive">פיקניק בקטנה</a></li>
+                    <li><a href="birthdayPicnic.html">פיקניק יום הולדת</a></li>
+                    <li><a href="#" class="notActive">כל המתכונים</a></li>
+                    <li><a href="locations.html">כל המיקומים</a></li>
+                </ul>
+            </nav>
+
+            <div id="endPage">
+                <a href="#container">
+                    <img id="arrowEndPage" src="images/imagesHomePage/arrow.svg" /><br />
+                    לחזרה <br />לראש העמוד<br />
+                    לחצו כאן
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+

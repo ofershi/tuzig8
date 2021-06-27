@@ -1,0 +1,264 @@
+﻿/*general settings*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+font-face {
+    font-family: Rubik;
+}
+
+font-face {
+    font-family: 'OS Luizi Round_FFC';
+}
+
+font-face {
+    font-family: 'Times New Roman';
+}
+
+body {
+    padding-top: 30px;
+    direction: rtl;
+    font-family: Rubik;
+    margin: 0 auto;
+    background-color: #f2e4e4;
+}
+
+
+a:focus {
+    border: 3px solid black;
+}
+
+#container {
+    width: 1280px;
+    margin: 0 auto;
+    box-shadow: 5px 10px 18px #888888;
+    background-color: white;
+}
+
+/*header  & nav Bar settings*/
+
+header {
+    margin-right: 45px;
+}
+
+#skipContent, skipContent:visited {
+    z-index: 20;
+    position: absolute;
+    width: 0px;
+    text-align: center;
+    height: 0px;
+    color: black;
+    overflow: hidden;
+    font-size: 18pt;
+    margin: 0px -255px;
+}
+
+    #skipContent:focus {
+        z-index: 21;
+        overflow: visible;
+    }
+
+#logoPic {
+    float: right;
+    width: 15%;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.tabs {
+    padding-top: 80px;
+}
+
+    .tabs ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        margin-top: -10px;
+    }
+
+        .tabs ul li {
+            margin-right: 15px;
+            display: inline-block;
+            float: right;
+            background-color: #f2dada;
+            border-radius: 20px;
+            width: 125px;
+            text-align: center;
+            color: black;
+            height: 20px;
+            padding: 3px;
+        }
+
+            .tabs ul li a {
+                text-decoration: none;
+                list-style: none;
+                color: black;
+            }
+
+            .tabs ul li:hover {
+                background-image: url('../images/imagesHomePage/emptyTab.svg');
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+.notActive:hover {
+    cursor: not-allowed;
+    color: gray;
+}
+
+/*content*/
+
+#mainPage {
+    text-align: center;
+    height: 500px;
+    align-content: center;
+}
+
+    #mainPage a:hover, #mainPage a:focus {
+        font-size: 22px;
+    }
+
+    h1 {
+        margin-top: 140px;
+        font-size: 40px;
+        font-family: 'OS Luizi Round_FFC';
+    }
+
+#mapPages {
+    margin-top: 100px;
+    text-align: center;
+    margin-right: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+    #mapPages li {
+        display: inline;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        display: inline-block;
+        float: right;
+        font-size: 18px;
+        background-color: #ede2df;
+        color: black;
+        border-radius: 50%;
+        width: 130px;
+        text-align: center;
+        height: 90px;
+        padding-top: 37px;
+        font-weight: bold;
+    }
+
+#juice {
+    width: 40px;
+    float: right;
+    margin-top: -100px;
+    margin-right: 200px;
+    position: relative;
+    z-index: 2;
+}
+
+#map1 {
+    width: 160px;
+    float: left;
+    margin-left: -510px;
+    margin-top: -190px;
+    transform: rotate(155deg);
+    z-index: 0;
+}
+
+#baget {
+    width: 130px;
+    float: right;
+    margin-top: -170px;
+    margin-right: 70px;
+    position: relative;
+    z-index: 0;
+}
+
+#chees {
+    float: left;
+    position: relative;
+    width: 90px;
+    margin-left: 200px;
+    margin-top: -60px;
+    z-index: 2;
+}
+
+#jam {
+    width: 90px;
+    float: left;
+    position: relative;
+    width: 60px;
+    margin-left: 235px;
+    margin-top: -70px;
+    z-index: 2;
+}
+
+#wine {
+    width: 200px;
+    float: right;
+    position: relative;
+    margin-top: -200px;
+    margin-right: 290px;
+    z-index: 2;
+}
+
+/*footer*/
+
+footer {
+    width: 1280px;
+    margin: auto;
+    margin-right: 100px;
+}
+
+.logoFooter {
+    width: 100px;
+    display: block;
+}
+
+.nav_footer ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    text-align: center;
+    width: 360px
+}
+
+.footerNavRight li {
+    list-style: none;
+    display: inline-block;
+}
+
+li {
+    font-family: Rubik;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-weight: bold;
+}
+
+ul p {
+    font-family: Rubik;
+}
+
+#endPage {
+    text-align: center;
+    float: right;
+    font-weight: bold;
+}
+
+#arrowEndPage {
+    width: 20px;
+    transform: rotate(180deg);
+}
+
+

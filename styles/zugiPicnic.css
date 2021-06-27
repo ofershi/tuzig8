@@ -1,0 +1,624 @@
+﻿/*general settings*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+font-face {
+    font-family: Rubik;
+}
+
+font-face {
+    font-family: 'OS Luizi Round_FFC';
+}
+
+font-face {
+    font-family: 'Times New Roman';
+}
+
+body {
+    padding-top: 30px;
+    direction: rtl;
+    font-family: Rubik;
+    margin: 0 auto;
+    background-color: #f2e4e4;
+}
+
+a:focus {
+    border: 3px solid black;
+}
+
+#container {
+    width: 1280px;
+    margin: 0 auto;
+    box-shadow: 5px 10px 18px #888888;
+    background-color: white;
+}
+
+/*header  & nav Bar settings*/
+
+header {
+    margin-right: 45px;
+}
+
+#skipContent, skipContent:visited {
+    z-index: 20;
+    position: absolute;
+    width: 0px;
+    text-align: center;
+    height: 0px;
+    color: black;
+    overflow: hidden;
+    font-size: 18pt;
+    margin: 0px -255px;
+}
+
+    #skipContent:focus {
+        z-index: 21;
+        overflow: visible;
+    }
+
+#logoPic {
+    float: right;
+    width: 15%;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.tabs {
+    padding-top: 80px;
+}
+
+    .tabs ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        margin-top: -10px;
+    }
+
+        .tabs ul li {
+            margin-right: 15px;
+            display: inline-block;
+            float: right;
+            background-color: #f2dada;
+            border-radius: 20px;
+            width: 125px;
+            text-align: center;
+            color: black;
+            height: 20px;
+            padding: 3px;
+        }
+
+            .tabs ul li a {
+                text-decoration: none;
+                list-style: none;
+                color: black;
+            }
+
+            .tabs ul li:hover {
+                background-image: url('../images/imagesHomePage/emptyTab.svg');
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+        .tabs ul #romanticTab {
+            background-image: url('../images/imagesHomePage/emptyTab.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+.notActive:hover {
+    cursor: not-allowed;
+    color: gray;
+}
+
+/*content*/
+
+h2{
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'OS Luizi Round_FFC';
+    font-size: 45px;
+}
+
+h3{
+    text-align: center;
+    margin-top: -30px;
+}
+
+h4 {
+    font-size: 20px;
+    display: inline-block;
+    margin-right:20px;
+}
+
+.infor {
+    font-size: 20px;
+    margin-top: -20px;
+    margin-right: 30px;
+}
+
+#text {
+    text-align: center;
+    margin-top:-20px;
+    font-size: 20px;
+}
+
+/*video*/
+video {
+    width: 1280px;
+    margin-top: -50px;
+    position: relative;
+    z-index: 0;
+}
+
+#enterSnc {
+    width: 40%;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: -500px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+#arrow {
+    height: 5%;
+    width: 5%;
+    margin-right: 47.5%;
+    margin-top: -400px;
+    margin-bottom: 75px;
+    position: relative;
+    z-index: 1;
+}
+
+#openSnc {
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-right: 120px;
+    margin-top: 60px;
+    height: 340px;
+    background-image: url('../images/imagesBirthday/EmptyOpenSnc.svg');
+    background-repeat: no-repeat;
+
+}
+
+    #openSnc > h2 {
+        font-family: Rubik;
+        font-weight: 400;
+    }
+
+    #openSnc p {
+        line-height:1.5;
+    }
+
+/*locations*/
+
+#imgsPlaces {
+    width: 80%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+    #imgsPlaces div {
+        margin: 10px;
+        display: inline;
+    }
+
+#mizpeOphirHover {
+    display: none;
+}
+
+#mizpeOphir:hover #mizpeOphirHover {
+    display: block;
+    position: absolute;
+    margin-top: -295px;
+    margin-right: -55px;
+    width: 880px;
+    height: 538px;
+    background-image: url('../images/imagesZugiPicnic/mizpeOphirHover.svg');
+    background-size: contain;
+}
+
+#parkHayarkonHover {
+    display: none;
+}
+
+#parkHayarkon:hover #parkHayarkonHover {
+    display: block;
+    position: absolute;
+    margin-top: -295px;
+    margin-right: -55px;
+    width: 880px;
+    height: 538px;
+    background-image: url('../images/imagesZugiPicnic/parkHayarkonHover.svg');
+    background-size: contain;
+}
+
+
+#telGadurHover {
+    display: none;
+}
+
+#telGadur:hover #telGadurHover {
+    display: block;
+    position: absolute;
+    margin-top: -295px;
+    margin-right: -55px;
+    width: 880px;
+    height: 538px;
+    background-image: url('../images/imagesZugiPicnic/telGadurHover.svg');
+    background-size: contain;
+}
+
+}
+
+#katefShaulHover {
+    display: none;
+}
+
+#katefShaul:hover #katefShaulHover {
+    display: block;
+    position: absolute;
+    margin-top: -580px;
+    margin-right: -55px;
+    width: 900px;
+    height: 550px;
+    background-image: url('../images/imagesZugiPicnic/katefShaulHover.svg');
+    background-size: contain;
+}
+
+#hofHazukHover {
+    display: none;
+}
+
+#hofHazuk:hover #hofHazukHover {
+    display: block;
+    position: absolute;
+    margin-top: -580px;
+    margin-right: -55px;
+    width: 900px;
+    height: 550px;
+    background-image: url('../images/imagesZugiPicnic/hofHazukHover.svg');
+    background-size: contain;
+}
+
+#agmonPolegHover {
+    display: none;
+}
+
+#agmonPoleg:hover #agmonPolegHover {
+    display: block;
+    position: absolute;
+    margin-top: -580px;
+    margin-right: -55px;
+    width: 900px;
+    height: 550px;
+    background-image: url('../images/imagesZugiPicnic/agmonPolegHover.svg');
+    background-size: contain;
+}
+
+
+/*packing*/
+
+#blackPoint{
+    width: 10px;
+}
+
+.title ul {
+    list-style-type: none;
+}
+
+#maOrzim > .title > h3 {
+    font-family: 'OS Luizi Round_FFC';
+    font-size: 40px;
+    color: #F5727B;
+    text-align: right;
+    margin-right:40px;
+}
+
+.title > img{
+    width: 25%;
+}
+
+#maOrzim div{
+    margin-bottom:100px;
+    margin-top:100px;
+}
+
+#mustPic {
+    float: left;
+    margin-top:200px;
+    margin-left:40px;
+}
+
+#vibePic {
+    float: right;
+    height:370px;
+    margin-top: 150px;
+    padding-right:150px;
+    margin-left:150px;
+
+}
+#bestPic {
+    float: left;
+    margin-top: 200px;
+    margin-left:40px;
+}
+
+.underlineGroup{
+    text-decoration:underline;
+}
+
+.list {
+    float: left;
+    color: cornflowerblue;
+    font-size: 22px;
+    margin-left: 40px;
+}
+
+    .list:hover {
+        font-weight: bold;
+    }
+
+/*recepies*/
+
+#try {
+    width: 81%;
+    margin-right: 110px;
+}
+
+#t1 {
+    width: 595px;
+    height: 325px;
+    background-color: #f2dada;
+}
+
+#t2 {
+    width: 425px;
+    height: 480px;
+    float: left;
+    margin-top: -325px;
+    background-image: url('../images/imagesZugiPicnic/p2.svg');
+    background-size: cover;
+}
+
+#t3 {
+    width: 292px;
+    height: 270px;
+    float: right;
+    margin-left: 11px;
+    margin-top: 8px;
+    background-image: url('../images/imagesZugiPicnic/p3.svg');
+    background-size: cover;
+}
+
+#t4 {
+    width: 292px;
+    height: 270px;
+    float: right;
+    margin-top: 8px;
+    background-image: url('../images/imagesZugiPicnic/p4.svg');
+    background-size: cover;
+}
+
+#t5 {
+    float: left;
+    width: 425px;
+    height: 110px;
+    margin-top: 12px;
+    background-color: #f2dada;
+}
+
+#t6 {
+    width: 230px;
+    height: 270px;
+    margin-top: 290px;
+    background-color: #f2dada;
+}
+
+#t7 {
+    float: left;
+    width: 790px;
+    height: 270px;
+    margin-top: -270px;
+    background-image: url('../images/imagesZugiPicnic/p7.svg');
+    background-size: cover;
+}
+
+#t8 {
+    width: 230px;
+    height: 270px;
+    float: right;
+    margin-top: 13px;
+    margin-left: 13px;
+    background-image: url('../images/imagesZugiPicnic/p8.svg');
+    background-size: cover;
+ 
+}
+
+#t9 {
+    width: 230px;
+    height: 270px;
+    float: right;
+    margin-top: 13px;
+    background-image: url('../images/imagesZugiPicnic/p9.svg');
+    background-size: cover;
+ 
+}
+
+#t10 {
+    height: 270px;
+    width: 550px;
+    float: left;
+    margin-top: 13px;
+    background-color: #f2dada;
+
+}
+
+
+#try div {
+    font-family: 'OS Luizi Round_FFC';
+    font-size: 60px;
+    text-align: center;
+}
+
+#t1 p {
+    padding-top: 110px;
+}
+
+#t5 p {
+    margin-top: 15px;
+}
+
+#t6 p {
+    padding-top: 35px;
+}
+
+span {
+    font-size:15px;
+}
+
+/*footer*/
+
+#finalSnc {
+    text-align: center;
+    font-family: 'OS Luizi Round_FFC';
+    font-size: 25px;
+    margin-top:400px;
+}
+
+footer{
+    width:1280px;
+    margin: auto;
+    margin-right: 100px;
+}
+
+.nav_footer ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    text-align:center;
+    width: 360px
+}
+
+footer #logo{
+    width: 100px;
+}
+
+li{
+    font-family: Rubik;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+footer a:hover {
+    font-weight: bold;
+}
+ul p{
+    font-family: Rubik;
+}
+
+#endPage {
+    text-align: center;
+    float: right;
+    font-weight: bold;
+}
+
+#arrowEndPage {
+    width: 20px;
+    transform: rotate(180deg);
+}
+
+
+/*recepies hover*/
+
+#t2Hover {
+    display: none;
+}
+
+#t2:hover #t2Hover {
+    display: block;
+    position: absolute;
+    width: 607px;
+    height: 335px;
+    background-image: url('../images/imagesZugiPicnic/p1Hover.svg');
+    background-size: contain;
+    margin-right: -612px;
+    margin-top: -11px;
+}
+
+t3Hover {
+    display: none;
+}
+#t3:hover #t3Hover {
+    display: block;
+    position: absolute;
+    width: 735px;
+    height: 295px;
+    background-image: url('../images/imagesZugiPicnic/p2Hover.svg');
+    background-size: cover;
+    margin-right: 303px;
+    margin-top: -11px;
+}
+
+
+#t4Hover {
+    display: none;
+}
+#t4:hover #t4Hover {
+    display: block;
+    position: absolute;
+    width: 305px;
+    height: 272px;
+    background-image: url('../images/imagesZugiPicnic/p3Hover.svg');
+    background-size: cover;
+    margin-right: -303px;
+    margin-top: -1px;
+}
+
+#t7Hover {
+    display: none;
+}
+#t7:hover #t7Hover {
+    display: block;
+    position: absolute;
+    width: 232px;
+    height: 275px;
+    background-image: url('../images/imagesZugiPicnic/p4Hover.svg');
+    background-size: cover;
+    margin-right: -248px;
+    margin-top: -5px;
+}
+
+#t8Hover {
+    display: none;
+}
+
+#t8:hover #t8Hover {
+    display: block;
+    position: absolute;
+    width: 829px;
+    height: 280px;
+    background-image: url('../images/imagesZugiPicnic/p5Hover.svg');
+    background-size: cover;
+    margin-top: -10px;
+    margin-right: 243px;
+}
+
+#t9Hover {
+    display: none;
+}
+
+#t9:hover #t9Hover {
+    display: block;
+    position: absolute;
+    width: 557px;
+    height: 285px;
+    background-image: url('../images/imagesZugiPicnic/p6Hover.svg');
+    background-size: cover;
+    margin-right: 244px;
+    margin-top: -14px;
+}

@@ -1,0 +1,228 @@
+﻿/*general settings*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+font-face {
+    font-family: Rubik;
+}
+
+font-face {
+    font-family: 'OS Luizi Round_FFC';
+}
+
+body {
+    direction: rtl;
+    font-family: Rubik;
+    margin: 0 auto;
+    background-color: #f2e4e4;
+}
+
+a:focus {
+    border: 3px solid black;
+}
+
+#container {
+    width: 1280px;
+    margin: 0 auto;
+    box-shadow: 5px 10px 18px #888888;
+    background-color: white;
+}
+
+/*header  & nav Bar settings*/
+
+header {
+    margin-right: 45px;
+}
+
+#skipContent, skipContent:visited {
+    z-index: 20;
+    position: absolute;
+    width: 0px;
+    text-align: center;
+    height: 0px;
+    color: black;
+    overflow: hidden;
+    font-size: 18pt;
+    margin: 0px -255px;
+}
+
+    #skipContent:focus {
+        z-index: 21;
+        overflow: visible;
+    }
+
+#logoPic {
+    float: right;
+    width: 15%;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.tabs {
+    padding-top: 80px;
+}
+
+    .tabs ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        margin-top: -10px;
+    }
+
+        .tabs ul li {
+            margin-right: 15px;
+            display: inline-block;
+            float: right;
+            background-color: #f2dada;
+            border-radius: 20px;
+            width: 125px;
+            text-align: center;
+            color: black;
+            height: 20px;
+            padding: 3px;
+        }
+
+            .tabs ul li a {
+                text-decoration: none;
+                list-style: none;
+                color: black;
+            }
+
+            .tabs ul li:hover {
+                background-image: url('../images/imagesHomePage/emptyTab.svg');
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+.notActive:hover {
+    cursor: not-allowed;
+    color: gray;
+}
+
+/*content*/
+
+#whoUs {
+    margin-top: 120px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+    #whoUs a {
+        text-decoration: underline;
+    }
+
+        #whoUs a:hover, #whoUs a:focus {
+            font-weight: bold;
+        }
+
+    .gang {
+        margin-right:12%;
+    }
+.us {
+    font-size: 20px;
+}
+
+#names li {
+    display: inline-block;
+    list-style: none;
+    font-size: 30px;
+    padding: 50px;
+    margin-top:-50px;
+    font-family:'OS Luizi Round_FFC';
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'OS Luizi Round_FFC';
+    text-align:center;
+}
+
+h2 {
+    font-family: 'OS Luizi Round_FFC';
+
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'OS Luizi Round_FFC';
+}
+
+span {
+    font-weight: bold;
+    font-family:'OS Luizi Round_FFC';
+    font-size:27px;
+   margin-left:5px;
+}
+
+#gangPic {
+    width: 800px;
+    margin-right: 50px;
+}
+
+#logoHit {
+    width: 150px;
+    margin-top: 80px;
+    margin-right: 520px;
+   
+}
+
+/*footer*/
+
+footer {
+    width: 1280px;
+    margin: auto;
+    margin-right: 100px;
+    
+}
+
+.logoFooter {
+    width: 100px;
+    display: block;
+}
+
+.nav_footer ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    text-align: center;
+    width: 360px
+}
+
+.footerNavRight li {
+    list-style: none;
+    display: inline-block;
+}
+
+li {
+    font-family: Rubik;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-weight: bold;
+}
+
+ul p {
+    font-family: Rubik;
+}
+
+#endPage {
+    text-align: center;
+    float: right;
+    font-weight: bold;
+}
+
+#arrowEndPage {
+    width: 20px;
+    transform: rotate(180deg);
+}
+
+
